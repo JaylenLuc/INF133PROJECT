@@ -12,7 +12,7 @@ let pic3 = document.getElementById("thirdimage");
 window.addEventListener('scroll', function() {
     var value = window.scrollY;
     pic1.style.top = value  * 0.8 + 'px';
-    pic2.style.top = value  * 0.5 + 'px';
+    pic2.style.top = value  * 0.55 + 'px';
     pic3.style.top = value * 0.9 + 'px';
     // // t1.style.top = value * 0.8 + 'px';
     // t2.style.top = value * 0.9 + 'px';
