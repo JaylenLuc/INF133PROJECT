@@ -61,7 +61,7 @@ body {
     mix-blend-mode: color;
 } */
 
-#title {
+.title {
     position: relative;
     color: #fff;
     font-size: 20vh;
