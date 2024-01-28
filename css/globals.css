@@ -111,11 +111,16 @@ body {
 #firstimage:hover + #firsttab{
     opacity: 1;
     transition: opacity 0.5s ease-in-out; 
-    pointer-events: none; 
+    /* pointer-events: none;  */
     display: block;
 
-
 }
+
+#firstimage:hover {
+    filter: sepia(100%) saturate(300%) brightness(50%) hue-rotate(180deg);
+    transition: filter 0.5s ease-in-out;
+}
+
 #secondtab{
     position: absolute;
     color: #fff;
@@ -133,7 +138,7 @@ body {
 #thirdimage:hover + #secondtab{
     opacity: 1; 
     transition:opacity 0.5s ease-in-out; 
-    pointer-events: none; 
+    /* pointer-events: none;  */
     display: block;
 
 
