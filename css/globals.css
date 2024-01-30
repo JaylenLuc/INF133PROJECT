@@ -61,7 +61,7 @@ body {
     mix-blend-mode: color;
 } */
 
-.title {
+#title {
     position: relative;
     color: #fff;
     font-size: 20vh;
@@ -118,12 +118,12 @@ body {
 
 #firstimage:hover {
     filter: sepia(100%) saturate(300%) brightness(50%) hue-rotate(180deg);
-    transition: filter 0.5s ease-in-out;
+    transition: filter 0.8s ease-in-out;
 }
 
 #thirdimage:hover {
     filter: sepia(100%) saturate(300%) brightness(50%) hue-rotate(180deg);
-    transition: filter 1.5s ease-in-out;
+    transition: filter 0.8s ease-in-out;
 }
 
 #secondtab{

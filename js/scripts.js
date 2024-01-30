@@ -8,12 +8,12 @@ let pic1 = document.getElementById("firstimage");
 let pic2 = document.getElementById("secondimage");
 let pic3 = document.getElementById("thirdimage");
 // let t1 = document.getElementById("firsttab");
-// let t2 = document.getElementById("secondtab");
+let t2 = document.getElementById("secondtab");
 window.addEventListener('scroll', function() {
     var value = window.scrollY;
-    pic1.style.top = value  * 0.8 + 'px';
-    pic2.style.top = value  * 0.6 + 'px';
-    pic3.style.top = value * 0.9 + 'px';
+    pic1.style.top = value  * 0.85 + 'px';
+    pic2.style.top = value  * 0.55 + 'px';
+    pic3.style.top = value * 0.95 + 'px';
     // // t1.style.top = value * 0.8 + 'px';
-    // t2.style.top = value * 0.9 + 'px';
+    // t2.style.top = value *1 + 'px';
 })
