@@ -1,3 +1,5 @@
+deployment link: https://jaylenluc.github.io/INF133PROJECT/
+
 --Readme document for *author*--
 
 A reminder on academic integrity, as described in the syllabus.

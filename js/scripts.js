@@ -17,3 +17,5 @@ window.addEventListener('scroll', function() {
     // // t1.style.top = value * 0.8 + 'px';
     // t2.style.top = value *1 + 'px';
 })
+
+//my principle secondtab t2 is moving too fast
